@@ -1,0 +1,15 @@
+fastapi[standard]
+uvicorn[standard]
+langchain
+langchain_community
+langchainhub
+chromadb
+langchain-openai
+beautifulsoup4
+-qU langchain-text-splitters
+pydantic
+ -U langchain-chroma
+pypdf
+pandas
+streamlit
+requests
