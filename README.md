@@ -9,18 +9,12 @@ This tool is especially valuable in teaching environments, where educators can l
 
 ### How It Works:
 The project uses LangChain to orchestrate a pipeline of tasks, such as document loading, text splitting, embedding generation, and retrieval.
-
-All document embeddings are stored in ChromaDB, a lightweight and efficient vector database.
-
-When a user sends a prompt from the frontend, the backend:
-
-Converts the query into embeddings.
-
-Searches the ChromaDB for the most relevant document chunks.
-
-Combines the results with the original prompt.
-
-Sends the combined context to an LLM (like OpenAI GPT or similar) to generate an answer.
+* All document embeddings are stored in ChromaDB, a lightweight and efficient vector database.
+* When a user sends a prompt from the frontend, the backend:
+* Converts the query into embeddings.
+* Searches the ChromaDB for the most relevant document chunks.
+* Combines the results with the original prompt.
+* Sends the combined context to an LLM (like OpenAI GPT or similar) to generate an answer.
 
 ### Key Features:
 Multi-modal Input Support: PDF, Excel, Websites
